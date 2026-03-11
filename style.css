@@ -7,55 +7,71 @@
 }
 
 body {
-    background-color: rgba(0,0,33);
+    background-color: rgba(0, 0, 33);
     color: #fff;
 }
-nav{
+
+nav {
     display: flex;
     justify-content: space-around;
     align-items: center;
     height: 80px;
-    background-color:rgb(18,18,62) ;
+    background-color: rgb(18, 18, 62);
 }
-nav ul{
+
+nav ul {
     display: flex;
     justify-content: center;
 }
-nav ul li{
+
+nav ul li {
     list-style: none;
     margin: 0 23px;
 }
-nav ul li a{
+
+nav ul li a {
     text-decoration: none;
     color: #fff;
     transition: all 0.5s;
 }
-nav ul li a:hover{
+
+nav ul li a:hover {
     color: rgb(154, 81, 55);
     font-size: 1.01rem;
 }
 
-.left{
+.left {
     font-size: 1.5rem;
 }
 
-.firstSection{
+.firstSection {
     display: flex;
     justify-content: space-around;
     margin: 80px 0;
 }
-.firstSection > div{
-    width: 30%;
+
+.firstSection>div {
+    width: 31%;
 }
 
-.leftSection{
-    font-size: 3rem;
+.leftSection {
+    font-size: 40px;
 }
-.rightSection img{
+
+.rightSection img {
     width: 80%;
 }
 
-.purple{
+.purple {
     color: rgb(173, 125, 218);
     font-weight: 600;
+}
+
+#element {
+    color: rgb(173, 125, 218);
+}
+
+.secondSection{
+    max-width: 80vw;
+    margin: auto;
 }
