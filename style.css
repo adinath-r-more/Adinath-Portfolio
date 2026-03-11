@@ -75,3 +75,38 @@ nav ul li a:hover {
     max-width: 80vw;
     margin: auto;
 }
+
+@media (max-width:915px) {
+    .leftSection {
+    font-size: 35px;
+}
+.rightSection img {
+    width: 90%;
+}
+}
+
+@media (max-width:760px) {
+    .leftSection {
+    font-size: 30px;
+}
+.rightSection img {
+    width: 100%;
+}
+.left {
+    font-size: 19px;
+}
+}
+@media (max-width:600px) {
+    .leftSection {
+    font-size: 18px;
+}
+.firstSection>div {
+    width: 43%;
+}
+.rightSection img {
+    width: 100%;
+}
+.left {
+    font-size: 13px;
+}
+}
