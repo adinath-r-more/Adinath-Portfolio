@@ -58,6 +58,19 @@ nav ul li a:hover {
 .leftSection {
     font-size: 40px;
 }
+.leftSection .buttons{
+    padding: 50px 0;
+}
+
+.leftSection .btn {
+    padding: 12px;
+    background: #1e2167;
+    color: #fff;
+    border: 2px solid white;
+    border-radius: 6px;
+    font-size: 15px;
+    cursor: pointer;
+}
 
 .rightSection img {
     width: 80%;
@@ -122,16 +135,16 @@ nav ul li a:hover {
 
 main hr {
     border: 0;
-    background: #9c97f1; 
+    background: #9c97f1;
     height: 1.2px;
     margin: 60px 84px;
 }
 
-.secondSection h1{
+.secondSection h1 {
     font-size: 1.9rem;
 }
 
-.secondSection .box{
+.secondSection .box {
     background: white;
     width: 83vw;
     height: 2px;
@@ -139,19 +152,21 @@ main hr {
     display: flex;
 }
 
-.secondSection .vertical{
+.secondSection .vertical {
     height: 93px;
     width: 1px;
     background: #fff;
     margin: 0 120px;
 }
-.img-top{
+
+.img-top {
     width: 23px;
     position: relative;
     top: -32px;
     left: -9px;
 }
-.vertical-title{
+
+.vertical-title {
     position: relative;
     width: 150px;
     top: 75px;
@@ -159,7 +174,7 @@ main hr {
     font-size: 14px;
 }
 
-.vertical-desc{
+.vertical-desc {
     position: relative;
     top: 86px;
     color: gray;
@@ -168,6 +183,29 @@ main hr {
     right: 53px;
 }
 
-.text-gray{
+.text-gray {
     color: gray;
+}
+
+footer{
+    background-color: #0e0e1a;
+}
+.footer{
+    display: flex;
+    padding: 23px 122px;
+    justify-content: space-evenly;
+}
+
+.footer ul{
+    list-style: none
+}
+
+.footer > div{
+    width: 223px;
+}
+
+footer .footer-rights{
+    text-align: center;
+    color: gray;
+    padding: 12px 0;   
 }
