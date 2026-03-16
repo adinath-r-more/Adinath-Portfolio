@@ -133,7 +133,7 @@ main hr {
 
 .secondSection .box{
     background: white;
-    width: 80vw;
+    width: 83vw;
     height: 2px;
     margin: 56px 0;
     display: flex;
@@ -143,7 +143,7 @@ main hr {
     height: 93px;
     width: 1px;
     background: #fff;
-    margin: 0 100px;
+    margin: 0 120px;
 }
 .img-top{
     width: 23px;
@@ -156,6 +156,7 @@ main hr {
     width: 150px;
     top: 75px;
     right: 53px;
+    font-size: 14px;
 }
 
 .vertical-desc{
